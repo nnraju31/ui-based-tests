@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Star Wars Tests" thread-count="3" parallel="classes" >
+    <test name="All tests">
+        <classes>
+            <class name="com.starwars.tests.HomePageTests"></class>
+            <class name="com.starwars.tests.FilmsTests"></class>
+            <class name="com.starwars.tests.VideoTests"></class>
+        </classes>
+    </test>
+</suite>
